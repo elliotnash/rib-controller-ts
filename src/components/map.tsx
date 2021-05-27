@@ -1,8 +1,8 @@
 import * as React from 'react';
-
+import './map.scss';
 class Map extends React.Component {
   render(): React.ReactNode {
-    return <h1>Hello, World!</h1>;
+    return <div className="map"> </div>;
   }
 }
 
